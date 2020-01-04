@@ -1,0 +1,19 @@
+{
+	"name": "GDQ schedule scroller",
+	"version": "1.1.0",
+	"manifest_version": 2,
+	"description": "Scrolls to the most recent run",
+	"icons": {
+		"128": "icons/clock32.png",
+		"128": "icons/clock64.png",
+		"128": "icons/clock128.png"
+		},
+	"permissions": ["activeTab", "tabs"],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"page_action": {
+		"default_icon": "icons/clock32.png",
+		"default_title": "Scroll to most recent run"
+	}
+}
